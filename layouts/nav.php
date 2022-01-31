@@ -3,7 +3,7 @@
 				<nav class="navbar navbar-expand-lg">
 					<!-- Brand -->
 					<div class="logo-part">
-    					<a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo.png" alt="Modish HTML5 & Bootstrap 4 Theme" /></a>
+    					<a class="navbar-brand" href="index.html"><img class="img-fluid" src="<?= BASE_PATH ?>public/images/logo.png" alt="Modish HTML5 & Bootstrap 4 Theme" /></a>
     					<!-- Toggler/collapsibe Button -->
     					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavigation">
     						<span class="navbar-toggler-icon"></span>
