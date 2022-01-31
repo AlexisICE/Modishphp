@@ -73,7 +73,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-12 col-sm-12 col-md-12 col-lg-3 img-part" style="background:url(images/megamenu-img.jpg)center left no-repeat; background-size:cover;"></div>
+										<div class="col-12 col-sm-12 col-md-12 col-lg-3 img-part" style="background:url(<?= BASE_PATH ?>public/images/megamenu-img.jpg)center left no-repeat; background-size:cover;"></div>
 									</div>
 								</div>
 							</li>
@@ -131,8 +131,8 @@
     									<div class="language">
 	    									<h6>Language</h6>
 	    									<ul>
-	    										<li><a href="#"><img src="images/english-flag.jpg" alt="" />English</a></li>
-												<li><a href="#"><img src="images/french-flag.jpg" alt="" />French</a></li>
+	    										<li><a href="#"><img src="<?= BASE_PATH ?>public/images/english-flag.jpg" alt="" />English</a></li>
+												<li><a href="#"><img src="<?= BASE_PATH ?>public/images/french-flag.jpg" alt="" />French</a></li>
 											</ul>
 										</div>
 										<div class="currency">
@@ -158,7 +158,7 @@
     								<div class="cart-body mCustomScrollbar content">
 		        						<div class="item-list">
 		        							<div class="img-part">
-		        								<img class="img-fluid mx-auto" src="images/minicart-img1-89x109.jpg" alt="Modish HTML5 & Bootstrap 4 Theme" />
+		        								<img class="img-fluid mx-auto" src="<?= BASE_PATH ?>public/images/minicart-img1-89x109.jpg" alt="Modish HTML5 & Bootstrap 4 Theme" />
 		        							</div>
 		        							<div class="dis-part">
 		        								<a class="product-name" href="#">Licity jelly leg flat Sandals</a>
@@ -169,7 +169,7 @@
 		        						</div>
 		        						<div class="item-list">
 		        							<div class="img-part">
-		        								<img class="img-fluid mx-auto" src="images/minicart-img2-89x109.jpg" alt="Modish HTML5 & Bootstrap 4 Theme" />
+		        								<img class="img-fluid mx-auto" src="<?= BASE_PATH ?>public/images/minicart-img2-89x109.jpg" alt="Modish HTML5 & Bootstrap 4 Theme" />
 		        							</div>
 		        							<div class="dis-part">
 		        								<a class="product-name" href="#">Stripe Print Maxi Dress</a>
@@ -180,7 +180,7 @@
 		        						</div>
 		        						<div class="item-list">
 		        							<div class="img-part">
-		        								<img class="img-fluid mx-auto" src="images/minicart-img3-89x109.jpg" alt="Modish HTML5 & Bootstrap 4 Theme" />
+		        								<img class="img-fluid mx-auto" src="<?= BASE_PATH ?>public/images/minicart-img3-89x109.jpg" alt="Modish HTML5 & Bootstrap 4 Theme" />
 		        							</div>
 		        							<div class="dis-part">
 		        								<a class="product-name" href="#">Slim Fit Stretch Wool Blazer</a>
@@ -191,7 +191,7 @@
 		        						</div>
 		        						<div class="item-list">
 		        							<div class="img-part">
-		        								<img class="img-fluid mx-auto" src="images/minicart-img3-89x109.jpg" alt="Modish HTML5 & Bootstrap 4 Theme" />
+		        								<img class="img-fluid mx-auto" src="<?= BASE_PATH ?>public/images/minicart-img3-89x109.jpg" alt="Modish HTML5 & Bootstrap 4 Theme" />
 		        							</div>
 		        							<div class="dis-part">
 		        								<a class="product-name" href="#">Slim Fit Stretch Wool Blazer</a>
@@ -247,7 +247,7 @@
 					<div class="aside-body">
 						<div class="logo">
 							<a href="#" class="d-flex align-items-center">
-								<img class="img-fluid mx-auto" src="images/logo.png" alt="MIIAS Furniture HTML5 &amp; Bootstrap 4 Theme">
+								<img class="img-fluid mx-auto" src="<?= BASE_PATH ?>public/images/logo.png" alt="MIIAS Furniture HTML5 &amp; Bootstrap 4 Theme">
 							</a>
 						</div>
 						<div class="about-company">
