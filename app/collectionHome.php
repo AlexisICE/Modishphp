@@ -88,6 +88,39 @@ $newArrival = array(
     ),
 );
 
+$newArrival = array(
+    0 => array(
+        "subtitle" => 'New Arrivals',
+        "mainTitle" => 'Rose Print Ripped Tee for Women',
+        "image" => 'new-arrivals-add-719x374.jpg',
+    ),
+
+    1 => array(
+        "subtitle" => 'Discover Collection',
+        "mainTitle" => 'Capsule Wardrobe For Men',
+        "image" => 'discover-collection-add-719x374.jpg',
+    ),
+);
+
+$newCloth = array(
+    0 => array(
+        "image" => 'product4-270x340.jpg"',
+        "productName" => 'Blue sun top in grid top',
+        "price" => '$35.00',
+    ),
+
+    1 => array(
+        "image" => 'product7-270x340.jpg"',
+        "productName" => 'dicen top',
+        "price" => '$45.00',
+    ),
+
+    2 => array(
+        "image" => 'product2-270x340.jpg"',
+        "productName" => 'winatop',
+        "price" => '$45.00',
+    ),
+);
 
 
 ?>

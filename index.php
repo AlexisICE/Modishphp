@@ -87,18 +87,103 @@ include "app/collectionHome.php";
 			<div class="row">
 				<?php foreach ($newArrival as $newArrivals):?>
 						<div class="col-12 col-sm-12 col-md-6">
-							<div class="collection-box">
-							<img src="<?= BASE_PATH ?>public/images/<?= $newArrivals['image']?>" alt="" />
-							<div class="add-txt">
-								<div class="label"><?= $newArrivals['subtitle']?></div>
-								<h5><?= $newArrivals['mainTitle']?></h5>
-								<a class="btn collection-btn" href="shop.html">Shop Now</a>
-							</div>
+								<div class="collection-box">
+								<img src="<?= BASE_PATH ?>public/images/<?= $newArrivals['image']?>" alt="" />
+								<div class="add-txt">
+									<div class="label"><?= $newArrivals['subtitle']?></div>
+									<h5><?= $newArrivals['mainTitle']?></h5>
+									<a class="btn collection-btn" href="shop.html">Shop Now</a>
+								</div>
 							</div>
 						</div>
 				<?php endforeach ?>
 			</div>
 		</div>
 	</section>
+
+	<!-- ROPA NUEVA RECIEN LLEGADA -->
+		<section class="new-arrivals section-padding">
+	<div class="container">
+		<div class="sec-tit">
+			<h2>New Arrivals</h2>
+		</div>
+
+		<div class="row">
+		<?php foreach ($newCloth as $newCloths):?>
+		<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" data-cat="Accessories">
+			<div class="product">
+				<div class="product-img">
+					<img src="<?= BASE_PATH ?>public/images/<?= $newCloths['image']?>" alt="" />
+					<div class="hover-box">
+						<div class="cart-btn-wrp">
+						<a class="cart-btn btn" href="cart.html">Add to Cart</a>
+						</div>
+						<ul class="product-card_control">
+						<li><a title="Quick View" href="#" data-toggle="modal" data-target="#quickview-model"><i class="icon-loupe"></i></a></li>
+						<li><a href="wishlist.html"><i class="icon-heart"></i></a></li>
+						<li><a href="#"><i class="icon-compare"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="product-card-info">
+					<a class="pro-tit" href="product-detail.html">
+						<h4><?= $newCloths['productName']?></h4>
+					</a>
+					<p class="price"><?= $newCloths['price']?></p>
+				</div>
+			</div>
+		</div>
+		<?php endforeach ?>
+	</div>
+	</section>
+	
+	<!-- COMENTARIOS -->
+	<div class="testimonial-section section-padding">
+		<div class="container">
+			<div class="center">
+				<div class="owl-carousel" id="testi-carousel">
+					<div>
+					<img class="img-fluid mx-auto rounded-circle client-img" src="images/client-img.jpg" alt="Modish Furniture HTML5 & Bootstrap 4 Theme" />
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+					<img class="img-fluid mx-auto" src="images/quote.png" alt="Modish Furniture HTML5 & Bootstrap 4 Theme" />
+					<div class="cl-name">John due, noilot</div>
+					</div>
+					<div>
+					<img class="img-fluid mx-auto rounded-circle client-img" src="images/client-img.jpg" alt="Modish Furniture HTML5 & Bootstrap 4 Theme" />
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+					<img class="img-fluid mx-auto" src="images/quote.png" alt="Modish Furniture HTML5 & Bootstrap 4 Theme" />
+					<div class="cl-name">John due, noilot</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!-- Blog Section -->
+		<section class="blog-section section-padding">
+			<div class="container">
+				<div class="sec-tit">
+					<h2>Latest From Blog</h2>
+				</div>
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-4">
+						<div class="single-blog">
+						<div class="blog-photo">
+							<a href="blog-detail.html"><img src="images/blog-img1-370x268.jpg" alt="" /></a>
+						</div>
+							<div class="blog-info text-left">
+								<div class="date-and-author">
+									<div class="post-date">08 July 2019</div>
+									<div class="author-name">By: John Due</div>
+								</div>
+								<h4><a href="blog-detail.html">Essentially unchanged Popularise</a></h4>
+								<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+								<a href="blog-detail.html" class="rmore">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 </body>
 </html>
