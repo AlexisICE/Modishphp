@@ -74,6 +74,20 @@ $product = array(
 
 );
 
+$newArrival = array(
+    0 => array(
+        "subtitle" => 'New Arrivals',
+        "mainTitle" => 'Rose Print Ripped Tee for Women',
+        "image" => 'new-arrivals-add-719x374.jpg',
+    ),
+
+    1 => array(
+        "subtitle" => 'Discover Collection',
+        "mainTitle" => 'Capsule Wardrobe For Men',
+        "image" => 'discover-collection-add-719x374.jpg',
+    ),
+);
+
 
 
 ?>

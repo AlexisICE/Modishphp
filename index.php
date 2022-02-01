@@ -80,5 +80,25 @@ include "app/collectionHome.php";
 			</div>
 		</div>
 		<?php endforeach ?>
+	
+	<!-- posibles nuevas colleciones de ropa -->
+	<section class="add-section section-padding">
+		<div class="center">
+			<div class="row">
+				<?php foreach ($newArrival as $newArrivals):?>
+						<div class="col-12 col-sm-12 col-md-6">
+							<div class="collection-box">
+							<img src="<?= BASE_PATH ?>public/images/<?= $newArrivals['image']?>" alt="" />
+							<div class="add-txt">
+								<div class="label"><?= $newArrivals['subtitle']?></div>
+								<h5><?= $newArrivals['mainTitle']?></h5>
+								<a class="btn collection-btn" href="shop.html">Shop Now</a>
+							</div>
+							</div>
+						</div>
+				<?php endforeach ?>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
