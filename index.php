@@ -166,54 +166,59 @@ include "app/collectionHome.php";
 					<h2>Latest From Blog</h2>
 				</div>
 				<div class="row">
+				<?php foreach ($post as $posts):?>
 					<div class="col-12 col-sm-12 col-md-4">
 						<div class="single-blog">
 						<div class="blog-photo">
-							<a href="blog-detail.html"><img src="images/blog-img1-370x268.jpg" alt="" /></a>
+							<a href="blog-detail.html"><img src="<?= BASE_PATH ?>public/images/<?= $posts['image']?>" alt="" /></a>
 						</div>
 							<div class="blog-info text-left">
 								<div class="date-and-author">
-									<div class="post-date">08 July 2019</div>
-									<div class="author-name">By: John Due</div>
+									<div class="post-date"><?= $posts['postDate']?></div>
+									<div class="author-name">by<?= $posts['autor']?></div>
 								</div>
-								<h4><a href="blog-detail.html">Essentially unchanged Popularise</a></h4>
-								<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+								<h4><a href="blog-detail.html"><?= $posts['title']?></a></h4>
+								<p><?= $posts['text']?></p>
 								<a href="blog-detail.html" class="rmore">Read more</a>
 							</div>
 						</div>
 					</div>
+					<?php endforeach ?>
 				</div>
 			</div>
 		</section>
+
+		<footer> <?php include "layouts/footer.php";?></footer>
 		<?php 
 
 		include "layouts/scripts.php";
 
 		?>
+
 		<script>
-	$('#home-banner1').owlCarousel({
-			    loop:true,
-			    margin:10,
-			    nav:true,
-			    responsive:{
-			        0:{
-			            items:1
-			        }
-			    }
-			});
-			function myac(){
-				$('.my-ac-icon,.cart-icon').click(function(){
-					$(this).next().slideToggle();
+		$('#home-banner1').owlCarousel({
+					loop:true,
+					margin:10,
+					nav:true,
+					responsive:{
+						0:{
+							items:1
+						}
+					}
 				});
-			}
-			function headersearch(){
-				$('.search-icon,.search-droapdown .close').click(function(){
-					$('.search-droapdown').slideToggle();
-				});
-			}
-			
-			myac();
-			headersearch();
+				function myac(){
+					$('.my-ac-icon,.cart-icon').click(function(){
+						$(this).next().slideToggle();
+					});
+				}
+				function headersearch(){
+					$('.search-icon,.search-droapdown .close').click(function(){
+						$('.search-droapdown').slideToggle();
+					});
+				}
+				
+				myac();
+				headersearch();
 
 		</script>
 

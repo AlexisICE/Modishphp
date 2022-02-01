@@ -122,5 +122,31 @@ $newCloth = array(
     ),
 );
 
+$post = array(
+    0 => array(
+        "image" => 'blog-img1-370x268.jpg"',
+        "postDate" => '08 July 2019',
+        "autor" => 'John Due',
+        "title" => 'Essentially unchanged Popularise',
+        "text" => 'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged',
+    ),
+
+    1 => array(
+        "image" => 'blog-img2-370x268.jpg"',
+        "postDate" => '08 July 2019',
+        "autor" => 'John Due',
+        "title" => 'Various versions have evolved over',
+        "text" => 'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged',
+    ),
+
+    2 => array(
+        "image" => 'blog-img3-370x268.jpg"',
+        "postDate" => '08 July 2019',
+        "autor" => 'John Due',
+        "title" => 'Passages of Lorem Ipsum available',
+        "text" => 'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged',
+    ),
+);
+
 
 ?>
