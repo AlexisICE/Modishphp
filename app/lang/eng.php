@@ -76,4 +76,23 @@ $product = array(
 
 
 
+
+$lang = array(
+
+     /***About Menu****/
+
+     'about_label_title' => 'GOOD FASHION WILL COME MY WAY!',
+     
+     'about_label_parraf' => 'Lorem Ipsum is simply dummy text of the printing and 
+     typesetting industry. Lorem Ipsum has been the industrys standard dummy 
+     text ever since the 1500s and scrambled it to make.',
+
+     'about_label_link' => 'SHOP NOW',
+
+     'about_label_supp1' => 'Free Shipping',
+
+
+);
+
+
 ?>
