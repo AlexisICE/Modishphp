@@ -3,7 +3,8 @@
 
 include "app/config.php";
 include "app/collectionHome.php";
-
+ $title = "Home";
+ $url = ""
 ?>
 
 <!DOCTYPE html>
