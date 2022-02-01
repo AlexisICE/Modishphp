@@ -20,11 +20,8 @@
 								<span class="expand"><i class="sign"></i></span>
 								<div class="submenu">
 									<ul class="lavel-1">
-										<li><a href="index.html">Home 1</a></li>
-										<li><a href="index-2.html">Home 2</a></li>
-										<li><a href="index-3.html">Home 3</a></li>
-										<li><a href="index-4.html">Home 4</a></li>
-										<li><a href="index-5.html">Home 5</a></li>
+										<li><a href="http://localhost/modishphp/">Home 1</a></li>
+									
 									</ul>
 								</div>
 							</li>
