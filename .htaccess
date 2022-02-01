@@ -1,0 +1,33 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine on
+
+RewriteRule ^sendcontact$ app/ContactController.php
+RewriteRule ^webservices$ app/HomeController.php
+
+#RUTA DE ABOUT
+RewriteRule ^about/(.+)/ about/index.php
+
+#RUTA DE CART 
+RewriteRule ^cart/(.+)/ cart/index.php
+
+
+#RUTA DE CHECKOUT 
+RewriteRule ^checkout/(.+)/ checkout/index.php
+
+
+#RUTA DE CONTACT
+RewriteRule ^contact/(.+)/ contact/index.php
+
+#RUTA DE PRODUCTS
+RewriteRule ^products/(.+)/ products/index.php
+
+
+#RUTA DE SHOP
+RewriteRule ^shop/(.+)/ shop/index.php
+
+#RUTA DE WISHLIST
+RewriteRule ^wishlist/(.+)/ wishlist/index.php
+
+
+
+

@@ -82,19 +82,13 @@
 								<span class="expand"><i class="sign"></i></span>
 								<div class="submenu">
 									<ul class="lavel-1">
-										<li><a href="about-us.html">About</a></li>
-										<li><a href="about-us-1.html">About 1</a></li>
-										<li><a href="cart.html">Shopping cart</a></li>
-										<li><a href="checkout.html">checkout</a></li>
-										<li><a href="shop.html">Shop 1</a></li>
-										<li><a href="shop-1.html">Shop 2</a></li>
-										<li><a href="product-detail.html">Product Detail</a></li>
-										<li><a href="wishlist.html">wishlist</a></li>
-										<li><a href="contact-us.html">contact us</a></li>
-										<li><a href="login.html">login</a></li>
-										<li><a href="register.html">register</a></li>
-										<li><a href="faq.html">Faq Page</a></li>
-										<li><a href="404.html">404 Page</a></li>
+										<li><a href="<?= BASE_PATH ?>about">About</a></li>
+										<li><a href="<?= BASE_PATH ?>cart">cart </a></li>
+										<li><a href="<?= BASE_PATH ?>checkout">Checkout</a></li>
+										<li><a href="<?= BASE_PATH ?>contact">Contacto</a></li>
+										<li><a href="<?= BASE_PATH ?>products">Productos</a></li>
+										<li><a href="<?= BASE_PATH ?>shop">Shop</a></li>
+										<li><a href="<?= BASE_PATH ?>wishlist">Wishlist</a></li>
 									</ul>
 								</div>
 							</li>

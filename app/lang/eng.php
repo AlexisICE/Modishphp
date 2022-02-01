@@ -77,9 +77,17 @@ $product = array(
 
 
 
+
+
+
 $lang = array(
 
-     /***About Menu****/
+     /***HOME  Menu****/
+     
+    
+    
+    
+    /***About Menu****/
 
      'about_label_title' => 'GOOD FASHION WILL COME MY WAY!',
      
