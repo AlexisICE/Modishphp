@@ -4,7 +4,7 @@
 include "../app/config.php";
 include "../app/collectionHome.php";
  $title = "about";
- 
+ $home = "home";
 ?>
 
 

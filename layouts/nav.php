@@ -16,14 +16,9 @@
     					<div class="remove d-lg-none">x</div>
 						<ul class="navbar-nav">
 							<li class="nav-item has-children">
-								<a class="nav-link" href="#">Home</a>
+								<a class="nav-link" href="http://localhost/modishphp/">Home</a>
 								<span class="expand"><i class="sign"></i></span>
-								<div class="submenu">
-									<ul class="lavel-1">
-										<li><a href="http://localhost/modishphp/">Home 1</a></li>
-									
-									</ul>
-								</div>
+								
 							</li>
 							<li class="nav-item has-children">
 								<a class="nav-link" href="shop.html">Shop</a>
