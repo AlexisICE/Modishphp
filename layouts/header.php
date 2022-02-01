@@ -28,4 +28,3 @@
 		<!--Theme style css -->
 		<link rel="stylesheet" href="<?= BASE_PATH ?>public/css/style.css" />
 		<link rel="stylesheet" href="<?= BASE_PATH ?>public/css/query.css" />
-

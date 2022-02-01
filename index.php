@@ -185,5 +185,37 @@ include "app/collectionHome.php";
 				</div>
 			</div>
 		</section>
+		<?php 
+
+		include "layouts/scripts.php";
+
+		?>
+		<script>
+	$('#home-banner1').owlCarousel({
+			    loop:true,
+			    margin:10,
+			    nav:true,
+			    responsive:{
+			        0:{
+			            items:1
+			        }
+			    }
+			});
+			function myac(){
+				$('.my-ac-icon,.cart-icon').click(function(){
+					$(this).next().slideToggle();
+				});
+			}
+			function headersearch(){
+				$('.search-icon,.search-droapdown .close').click(function(){
+					$('.search-droapdown').slideToggle();
+				});
+			}
+			
+			myac();
+			headersearch();
+
+		</script>
+
 </body>
 </html>
