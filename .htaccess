@@ -5,6 +5,10 @@ RewriteRule ^sendcontact$ app/ContactController.php
 RewriteRule ^webservices$ app/HomeController.php
 
 #RUTA DE ABOUT
+
+
+
+#RUTA DE ABOUT
 RewriteRule ^about/(.+)/ about/index.php
 
 #RUTA DE CART 
@@ -29,5 +33,8 @@ RewriteRule ^shop/(.+)/ shop/index.php
 RewriteRule ^wishlist/(.+)/ wishlist/index.php
 
 
+#RUTA DE WISHLIST
+RewriteRule ^error/(.+)/ error/index.php
 
-
+#RUTA DE ERROR
+ErrorDocument 404 http://localhost/modishphp/error
