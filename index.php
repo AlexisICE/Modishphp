@@ -191,70 +191,66 @@ include "app/collectionHome.php";
 
 		<!-- Newsletter Section -->
 	<div class="newsletter-section section-padding">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-12 col-sm-12">
-				<div class="sec-tit">
-				<h2>Sign Up For Our Newsletter</h2>
-				</div>
-				<p>Subscribe to our newsletters now and stay up to date with new collections, the latest lookbooks and exclusive offers.</p>
-				<form class="form-newsletter">
-				<input class="form-control" type="text" placeholder="Enter your email address here" />
-				<button>subscribe</button>
-				</form>
-			</div>
-		</div>
-		<div class="h-ser">
-			<div class="container">
-				<div class="row deliveryinfo">
-				<div class="col-12 col-sm-6 col-md-6 col-lg-3">
-					<div class="ic-box">
-						<i class="icon-shipped"></i>
-						<div class="ic-txt">
-							<h5>Free Shipping</h5>
-							<p>Free shipping on all US order or order above $200</p>
-						</div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-sm-12">
+					<div class="sec-tit">
+					<h2>Sign Up For Our Newsletter</h2>
 					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-6 col-lg-3">
-					<div class="ic-box">
-						<i class="icon-24-hours-1"></i>
-						<div class="ic-txt">
-							<h5>Support 24/7</h5>
-							<p>Contact us 24 hours a day, 7 days a week</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-6 col-lg-3">
-					<div class="ic-box">
-						<i class="icon-return"></i>
-						<div class="ic-txt">
-							<h5>30 Days Return</h5>
-							<p>Simply return it within 30 days for an exchange</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-6 col-lg-3">
-					<div class="ic-box">
-						<i class="icon-security"></i>
-						<div class="ic-txt">
-							<h5>100% Payment Secure</h5>
-							<p>We ensure secure payment with us</p>
-						</div>
-					</div>
-				</div>
+					<p>Subscribe to our newsletters now and stay up to date with new collections, the latest lookbooks and exclusive offers.</p>
+					<form class="form-newsletter">
+					<input class="form-control" type="text" placeholder="Enter your email address here" />
+					<button>subscribe</button>
+					</form>
 				</div>
 			</div>
+			<div class="h-ser">
+				<div class="container">
+					<div class="row deliveryinfo">
+					<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+						<div class="ic-box">
+							<i class="icon-shipped"></i>
+							<div class="ic-txt">
+								<h5>Free Shipping</h5>
+								<p>Free shipping on all US order or order above $200</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+						<div class="ic-box">
+							<i class="icon-24-hours-1"></i>
+							<div class="ic-txt">
+								<h5>Support 24/7</h5>
+								<p>Contact us 24 hours a day, 7 days a week</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+						<div class="ic-box">
+							<i class="icon-return"></i>
+							<div class="ic-txt">
+								<h5>30 Days Return</h5>
+								<p>Simply return it within 30 days for an exchange</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+						<div class="ic-box">
+							<i class="icon-security"></i>
+							<div class="ic-txt">
+								<h5>100% Payment Secure</h5>
+								<p>We ensure secure payment with us</p>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
 	</div>
 
 		<footer> <?php include "layouts/footer.php";?></footer>
-		<?php 
-
-		include "layouts/scripts.php";
-
-		?>
+		<?php include "layouts/scripts.php";?>
 
 		<script>
 		$('#home-banner1').owlCarousel({
