@@ -3,7 +3,7 @@
 
 $category = array(
 
-    0 => array(
+    0=> array(
         "title" => 'Women',
         "image" => 'collection-img1-446x213.jpg',
     ),

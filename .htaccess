@@ -36,5 +36,9 @@ RewriteRule ^wishlist/(.+)/ wishlist/index.php
 #RUTA DE WISHLIST
 RewriteRule ^error/(.+)/ error/index.php
 
+
+
+
+
 #RUTA DE ERROR
 ErrorDocument 404 http://localhost/modishphp/error

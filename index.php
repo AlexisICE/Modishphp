@@ -32,8 +32,7 @@ include "app/collectionHome.php";
 				</div>
 			</div>
 			<?php endforeach ?>
-		</div>
-		</div>
+		
 
 
 		<!-- producto que se va a repetir -->
