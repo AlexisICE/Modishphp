@@ -17,6 +17,10 @@ $category = array(
         "title" => 'Accesories',
         "image" => 'collection-img3-446x213.jpg'
     ),
+    2 => array(
+        "title" => 'Accesories',
+        "image" => 'collection-img1-446x213.jpg'
+    ),
 
 );
 
