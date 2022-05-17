@@ -20,7 +20,7 @@ RewriteRule ^checkout/(.+)/ checkout/index.php
 
 
 #RUTA DE CONTACT
-RewriteRule ^contact/(.+)/ contact/index.php
+RewriteRule ^contacto/(.+)/ contacto/index.php
 
 #RUTA DE PRODUCTS
 RewriteRule ^products/(.+)/ products/index.php

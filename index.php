@@ -88,7 +88,7 @@ include "app/collectionHome.php";
 				<?php foreach ($newArrival as $newArrivals):?>
 						<div class="col-12 col-sm-12 col-md-6">
 								<div class="collection-box">
-								<img src="<?= BASE_PATH ?>public/images/<?= $newArrivals['image']?>" alt="" />
+								<img src="<?=  BASE_PATH ?>public/images/<?= $newArrivals['image']?>" alt="" />
 								<div class="add-txt">
 									<div class="label"><?= $newArrivals['subtitle']?></div>
 									<h5><?= $newArrivals['mainTitle']?></h5>
