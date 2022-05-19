@@ -16,12 +16,12 @@
     					<div class="remove d-lg-none">x</div>
 						<ul class="navbar-nav">
 							<li class="nav-item has-children">
-								<a class="nav-link" href="http://localhost/modishphp/">Home</a>
+								<a class="nav-link" href="<?= BASE_PATH ?>/">Home</a>
 								<span class="expand"><i class="sign"></i></span>
 								
 							</li>
 							<li class="nav-item has-children">
-								<a class="nav-link" href="<?= BASE_PATH ?>/contacto">Shop</a>
+								<a class="nav-link" href="<?= BASE_PATH ?>/shop">Shop</a>
 								<span class="expand"><i class="sign"></i></span>
 								<div class="megamenu">
 									<div class="row">
@@ -97,7 +97,7 @@
 									</ul>
 								</div>
 							<li class="nav-item">
-								<a class="nav-link" href="contact-us.html">Contact</a>
+								<a class="nav-link" href="<?= BASE_PATH ?>/contacto">Contact</a>
 							</li>
 						</ul>
     				</div>

@@ -9,11 +9,11 @@ RewriteRule ^webservices$ app/HomeController.php
 
 
 #RUTA DE ABOUT
-division de paginas
+
 #martin
 RewriteRule ^about/(.+)/ about/index.php
 
-#brian
+
 #RUTA DE CART 
 RewriteRule ^cart/(.+)/ cart/index.php
 
@@ -29,7 +29,7 @@ RewriteRule ^contacto/(.+)/ contacto/index.php
 #RUTA DE PRODUCTS
 RewriteRule ^products/(.+)/ products/index.php
 
-#martin
+#brian
 #RUTA DE SHOP
 RewriteRule ^shop/(.+)/ shop/index.php
 
