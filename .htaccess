@@ -9,36 +9,38 @@ RewriteRule ^webservices$ app/HomeController.php
 
 
 #RUTA DE ABOUT
+division de paginas
+#martin
 RewriteRule ^about/(.+)/ about/index.php
 
+#brian
 #RUTA DE CART 
 RewriteRule ^cart/(.+)/ cart/index.php
 
-
+#martin
 #RUTA DE CHECKOUT 
 RewriteRule ^checkout/(.+)/ checkout/index.php
 
-
+#brian
 #RUTA DE CONTACT
 RewriteRule ^contacto/(.+)/ contacto/index.php
 
+#brian
 #RUTA DE PRODUCTS
 RewriteRule ^products/(.+)/ products/index.php
 
-
+#martin
 #RUTA DE SHOP
 RewriteRule ^shop/(.+)/ shop/index.php
 
+#martin
 #RUTA DE WISHLIST
 RewriteRule ^wishlist/(.+)/ wishlist/index.php
 
-
+#martin
 #RUTA DE WISHLIST
 RewriteRule ^error/(.+)/ error/index.php
 
-
-
-
-
+#brian
 #RUTA DE ERROR
 ErrorDocument 404 http://localhost/modishphp/error
