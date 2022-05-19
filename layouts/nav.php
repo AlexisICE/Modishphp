@@ -21,7 +21,7 @@
 								
 							</li>
 							<li class="nav-item has-children">
-								<a class="nav-link" href="shop.html">Shop</a>
+								<a class="nav-link" href="<?= BASE_PATH ?>/contacto">Shop</a>
 								<span class="expand"><i class="sign"></i></span>
 								<div class="megamenu">
 									<div class="row">
