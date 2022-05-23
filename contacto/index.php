@@ -3,7 +3,7 @@
 
 include "../app/config.php";
 include "../app/collectionHome.php";
- $title = "about";
+ $title = "contacto";
  $home = "home";
 ?>
 
